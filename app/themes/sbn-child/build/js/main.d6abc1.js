@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",(function(e){const t=document.querySelector("#google_language_translator");new MutationObserver(((e,t)=>{const o=document.querySelector("#google_language_translator .goog-te-combo"),n=document.querySelector("#google_language_translator .goog-te-combo option:first-child");n&&(o.setAttribute("aria-label",n.text),t.disconnect())})).observe(t,{attributes:!1,childList:!0,subtree:!0})}));
+//# sourceMappingURL=main.d6abc1.js.map
